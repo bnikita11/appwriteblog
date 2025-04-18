@@ -34,7 +34,7 @@ function Home() {
 
   }
    return(
-    <div className='w-full py-8'>
+    <div className='h-screen flex justify-center items-center w-full  py-8'>
         <Container>
             <div className='flex flex-wrap'>
                 {posts.map((post)=>(
@@ -49,3 +49,9 @@ function Home() {
 }
 
 export default Home
+
+
+
+
+
+

@@ -33,9 +33,6 @@ function App() {
     <div className="w-full block ">
       <Header/>
       <main>
-        <h1 className='font-mono text-green-700 text-4xl'>
-        Drop your thoughts!!!
-        </h1>
       <Outlet/> 
       </main>
       <Footer/>
