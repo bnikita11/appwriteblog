@@ -22,10 +22,10 @@ export default function RTE({name,control,label,defaultValue=""}) {
             height:500,
             menubar:true,
             plugins:[
-                "advlist", "autolink", "lists", "link", "image", "charmap", "print", "preview", "anchor",
+                "advlist", "autolink", "lists", "link", "image", "charmap",  "preview", "anchor",
                 "searchreplace", "visualblocks", "code", "fullscreen",
                 "insertdatetime", "media", "table", 
-                // "paste", 
+                // "paste", "print",
                 "code", "help", "wordcount",
             ],
             toolbar:"undo redo | formatselect | bold italic backcolor | \
