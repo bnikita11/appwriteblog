@@ -29,14 +29,21 @@ function App() {
 
 
   return !loading ? (
-    <div className='m-h-screen flex flex-wrap content-between bg-gray-400 '>
-    <div className="w-full block ">
-      <Header/>
-      <main>
-      <Outlet/> 
-      </main>
-      <Footer/>
-      </div></div>
+    // <div className='min-h-screen overflow-x-hidden flex flex-wrap content-between bg-gray-400 '>
+    // <div className="w-full block ">
+    //   <Header/>
+    //   <main>
+    //   <Outlet/> 
+    //   </main>
+    //   <Footer/>
+    //   </div></div>
+    <div className='min-h-screen overflow-x-hidden flex flex-col bg-gray-400'>
+    <Header />
+    <main className="flex-1">
+      <Outlet />
+    </main>
+    <Footer />
+  </div>
   ) : null;
 }
 
